@@ -7,13 +7,19 @@ $(document).ready(function() {
   var newReptile = parseInt(reptile);
 
     if ( newReptile === 1 ) {
-      $(".snake").show();
+      $( "#turtle" ).hide();
+      $( "#beetle" ).hide();
+      $( "#snake" ).show();
     }
     else if ( newReptile === 2) {
-      $(".beetle").show();
+      $( "#snake" ).hide();
+      $( "#turtle" ).hide();
+      $( "#beetle" ).show();
     }
     else if ( newReptile === 3) {
-      $(".turtle").show();
+      $( "#beetle" ).hide();
+      $( "#snake" ).hide();
+      $( "#turtle" ).show();
     }
     else {
       alert("Please select something");
