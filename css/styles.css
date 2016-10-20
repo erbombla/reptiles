@@ -2,14 +2,14 @@
   text-align: center;
 }
 
-#snake {
+.snake {
   display: none;
 }
 
-#beetle {
+.beetle {
   display: none;
 }
 
-#turtle {
+.turtle {
   display: none;
 }
