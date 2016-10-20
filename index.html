@@ -2,31 +2,46 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
     <link href="css/skeleton.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Reptiles</title>
   </head>
+
   <body>
-      <div class="container">
-        <h1 class="header"><strong>Reptiles</strong></h1>
-        <hr>
-        <h2>Welcome!</h2>
-          <p>Let's learn about a few different reptiles.</p>
-          <label for = "reptile">Which would you like to learn about?</label>
-            <select class = "u-full-width" id="reptile">
-              <option value = "snake">Spiny Bush Viper</option>
-              <option value = "beetle">Golden Stag Beetle</option>
-              <option value = "turtle">Loggerhead Sea Turtle</option>
-            </select>
-          <div id="snake">
-            <h2>Spiny Bush Viper</h2>
-              <h4><em>Atheris hispida</em></h4>
-              <p>The males of this species grow to maximum total length of 73 cm (29 in): body 58 cm (23 in), tail 15 cm (5.9 in). Females grow to a maximum total length of 58 cm (23 in). The males are surprisingly long and slender compared to the females. This species is capable of climbing reeds and stalks, and is often found basking on top of flowers and terminal leaves.</p>
-              <img src = "img/viper.jpg">
-          </div>
-      </div>
+    <div class="container">
+      <h1 class="header"><strong>Reptiles</strong></h1>
+      <hr>
+      <h2>Welcome!</h2>
+        <p>Let's learn about a few different reptiles.</p>
+      <form>
+        <label for = "reptile">Which would you like to learn about?</label>
+          <select class = "u-full-width" id="reptile">
+          <option value = "1">Spiny Bush Viper</option>
+          <option value = "2">Golden Stag Beetle</option>
+          <option value = "3">Loggerhead Sea Turtle</option>
+          </select>
+        <div id="snake">
+          <h2>Spiny Bush Viper</h2>
+          <h4><em>Atheris hispida</em></h4>
+            <p>The males of this species grow to maximum total length of 73 cm (29 in): body 58 cm (23 in), tail 15 cm (5.9 in). Females grow to a maximum total length of 58 cm (23 in). The males are surprisingly long and slender compared to the females. This species is capable of climbing reeds and stalks, and is often found basking on top of flowers and terminal leaves.</p>
+            <img src = "img/viper.jpg">
+        </div>
+        <div id="beetle">
+          <h2>Golden Stag Beetle</h2>
+          <h4>Lamprima aurata</h4>
+            <p>The golden stag beetle is a species of beetle in the family Lucanidae. It measures between 15 and 25mm in length and is relatively common in eastern Australia. It feeds mainly on vegetation such as Eucalyptus or Acacia.</p>
+            <img src = "img/beetle.jpg">
+        </div>
+        <div id="turtle">
+          <h2>Loggerhead Sea Turtle</h2>
+          <h4><em>Caretta caretta</em></h4>
+            <p>The loggerhead sea turtle is the world's largest hard-shelled turtle. Adults have an average weight range of 80 to 200 kg (180 to 440 lb) and a length range of 70 to 95 cm (28 to 37 in). The head and carapace (upper shell) range from a yellow-orange to a reddish-brown, while the plastron (underside) is typically pale yellow.The turtle's neck and sides are brown on the tops and yellow on the sides and bottom.</p>
+            <img src = "img/turtle.jpg">
+        </div>
+        <input type="submit" value="submit">
+      </form>
+    </div>
   </body>
 </html>

@@ -3,5 +3,13 @@
 }
 
 #snake {
-  display: none; 
+  display: none;
+}
+
+#beetle {
+  display: none;
+}
+
+#turtle {
+  display: none;
 }
